@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-color {
+    background-color: #0098DB;
+}
+
+.hlight {
+    color: #0098DB;
+}
+
+.bx-cog,
+.bx-wink-smile,
+.bx-book-open {
+    color: #0098DB;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #EAF4FB;
+}
+
+.bg-color {
+    background-color: #F7FBFE;
+}
+
+.title {
+    padding: 40px 0px 10px 0px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    height: 30px;
+}
+
+.quaote-text {
+    font-size: 15px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+
+
+.img-size {
+    height: 250px;
+    width: 250px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 13px;
+}
+
+figure {
+    padding-top: 10px;
+}
+
+.quote-text {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-github {
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+.fa-instagram:hover {
+    color: #ff69b4;
+    transition: 0.2s;
+}
+
+.fa-github:hover {
+    color: #000000;
+    transition: 0.2s;
+}
+
+.fa-facebook:hover {
+    color: #0000ff;
+    transition: 0.2s;
+}
+
+.card-subtitle {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.icon-box {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.icon-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+
+.icon-box:hover h4 {
+    color: #0098DB;
+}
+
+
+.footer-end {
+    padding: 50px 0 0 0;
+    margin-top: auto;
+}
+
+/* Add the following CSS rules */
+.navbar-toggler {
+    order: -1;
+    /* Move the toggler to the beginning for small screens */
+}
+
+
+.navbar-nav {
+    margin: 0 auto;
+    /* Center the navbar contents */
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav.ms-auto {
+        order: -1;
+        /* Move the right-aligned nav items to the beginning for small screens */
+    }
+}
+
+.bxs-bug {
+    font-size: 25px;
+}
